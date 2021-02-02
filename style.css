@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+header {
+  font-size: 2rem;
+}
+
+.container {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid black;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.container + div {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+}

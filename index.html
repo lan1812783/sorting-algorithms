@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>Sorting Visualization</header>
+
+    <div class="container"></div>
+
+    <div>
+        <select name="algorithms" id="">
+            <option value="Bubble sort">Bubble sort</option>
+            <option value="Insertion sort">Insertion sort</option>
+            <option value="Selection sort">Selection sort</option>
+            <option value="Quick sort">Quick sort</option>
+            <option value="Heap sort">Heap sort</option>
+        </select>
+
+        <button class="startBtn">Start</button>
+
+        <button class="generateNewBtn">New</button>
+
+        <div>
+            <label for="numBars">Number of bars</label>
+            <input type="range" id="numBars" min="10" max="200" step="10">
+        </div>
+
+        <div>
+            <label for="speed">Speed</label>
+            <input type="range" id="speed" min="0" max="500" step="1">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
